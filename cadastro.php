@@ -14,7 +14,7 @@ if(!empty($nome) && !empty($senha)){
     if($u->msgerro==""){
         if($senha==$confsenha){
             if($u->cadastrar($nome, $senha)){
-				echo"cadastrado com sucesso";
+			    header('location: 15deagosto.html');
             }else{
                 echo "nome e senha ja cadastrados, tente outro ou faca login";
             }
