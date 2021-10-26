@@ -84,7 +84,7 @@ $nome=$_POST['nome'];
     $u->conectar("sis_login", "localhost", "root", "");
     if(!empty($nome) ){
         if($u->login($nome)){
-            echo "acesso concedido";;
+            header('location: 15deagosto.html');
         }else{
             echo"nao possue conta, pretende se cadastrar?";}
 
