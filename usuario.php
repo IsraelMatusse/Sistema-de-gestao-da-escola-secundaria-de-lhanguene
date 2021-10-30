@@ -8,7 +8,7 @@ public function conectar( $nome,$host, $usuario, $senha)
 	try{
 	$pdo= new PDO("mysql:dbname=".$nome. ";host=".$host, $usuario, $senha);
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	echo "Connected successfully";
+	//echo "Connected successfully";
 }catch(PDOException $e){
 $msgerro=$e->getmessage();
 }

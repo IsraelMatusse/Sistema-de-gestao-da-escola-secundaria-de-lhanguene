@@ -14,12 +14,12 @@ if(!empty($nome) && !empty($senha)){
     if($u->msgerro==""){
         if($senha==$confsenha){
             if($u->cadastrar($nome, $senha)){
-            ?>
-            <script type="text/javascript">
-            	window.alert('Cadastrado com sucesso!')
-            </script>
-			   // header('location: 15deagosto.html');
-			   <?php
+            	?>
+            	<script type="text/javascript">
+            		window.alert('Estudante cadastrado')
+            	</script>
+			    header('location: 15deagosto.html');
+			    <?php
             }else{
                 echo "nome e senha ja cadastrados, tente outro ou faca login";
             }
