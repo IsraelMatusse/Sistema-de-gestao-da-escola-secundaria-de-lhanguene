@@ -1,0 +1,32 @@
+.navbar-custom{
+    background-color: #8B0000;
+   
+}
+
+
+.active{
+    background-color: brown;
+}
+
+.table{
+    color: white;
+    background-color: #8B0000;
+}
+
+.btn{
+    margin-left: 10%;
+}
+
+.linha{
+    border: solid #8B0000 1px;
+}
+
+.comment{
+    width: 57%;
+}
+
+
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}

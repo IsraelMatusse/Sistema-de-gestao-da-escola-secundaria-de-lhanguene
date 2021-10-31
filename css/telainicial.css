@@ -1,0 +1,89 @@
+body {
+  background-color: 	#F0FFFF;
+}
+
+h1 {
+  color: white !important;
+}
+
+input {
+  border: 1px solid red !important;
+}
+
+.banner, .jumbotron {
+  background-color: #8B0000 !important;
+}
+
+.col-md-1 img {
+  text-align:center;
+  margin-left: 30px;
+  margin-top: 70px
+}
+
+form {
+    margin-top: 70px;
+}
+
+button.dropdown-toggle {
+  margin-top: 5%;
+  background-color: #8B0000;
+  border: none;
+}
+
+
+.dropdown-menu > li > a {
+  background-color: #8B0000;
+}
+
+.navbar-collapse ul.navbar-nav li a:hover {
+  background-color: #d9534f;
+}
+
+.navbar-nav li a:hover {
+  background-color: #d9534f;
+}
+.navbar-collapse{
+    background-color: #8B0000;
+}
+
+.txt-danger {
+  font-size: 25px;
+} 
+
+.navbar-nav a, .navbar-brand  {
+    color: white!important;
+}
+
+.linha{
+  border: solid #8B0000 1px;
+}
+
+footer div.row {
+  background-color: #8B0000!important;
+  color: #F0FFFF;
+  text-align: center;
+}
+
+
+
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8)!important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6)!important;
+  outline: 0 none!important;
+}
